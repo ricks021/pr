@@ -14,31 +14,31 @@ const App = () =>{
       <main>
         
         <Route path="/" exact>
-          <Home />
+          <Home/>
         </Route>
 
-        <Route path="/Name" exact>
-          <Name />
+        <Route path="/name" exact>
+          <Name/>
         </Route>
 
-        <Route path="/Username" exact>
-          <Username />
+        <Route path="/username" exact>
+          <Username/>
         </Route>
 
-        <Route path="/Password" exact>
-          <Password />
+        <Route path="/password" exact>
+          <Password/>
         </Route>
 
-        <Route path="/Address" exact>
-          <Address />
+        <Route path="/address" exact>
+          <Address/>
         </Route>
 
-        <Route path="/Email" exact>
-          <Email />
+        <Route path="/email" exact>
+          <Email/>
         </Route>
 
-        <Route path="/DeleteAcc" exact>
-          <DeleteAcc />
+        <Route path="/deleteAcc" exact>
+          <DeleteAcc/>
         </Route>
 
       </main>
