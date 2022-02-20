@@ -1,12 +1,12 @@
-
 import './App.css';
+import ProfileNav from './Components/ProfileNav'
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      
+      <ProfileNav />
     </div>
   );
 }
 
-export default App;
+
