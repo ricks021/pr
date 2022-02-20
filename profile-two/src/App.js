@@ -7,12 +7,14 @@ import Password from "./Password/Password";
 import Address from "./Address/Address";
 import Email from "./Email/Email";
 import DeleteAcc from "./Delete/DeleteAcc";
+import ProfileNavbar from "./Components/ProfileNavber";
 
 const App = () =>{
   return(
     <Router>
+      <ProfileNavbar/>
       <main>
-        
+        <h1>jhasdjh</h1>
           <Route path="/" exact>
             <Home/>
           </Route>
