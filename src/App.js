@@ -1,12 +1,16 @@
 import './App.css';
-import ProfileNav from './Components/ProfileNav'
+import React, {Component} from "react";
+import Name from './Components/Name';
 
-export default function App() {
-  return (
-    <div className="App">
-      <ProfileNav />
-    </div>
-  );
+class App extends Component {
+  render(){
+    return (
+      <div className='App'>
+        <Name />
+      </div>
+    );
+  }
 }
 
 
+export default App;

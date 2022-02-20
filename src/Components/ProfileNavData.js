@@ -5,13 +5,14 @@ import PasswordIcon from '@mui/icons-material/Password';
 import HomeIcon from '@mui/icons-material/Home';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
+import Home from "./Home";
 
 export const ProfileNavData = [
 
   {
     title:"Home",
     icon:<ManageAccountsIcon />,
-    link:"/home"
+    link:"/Home"
   },
   {
     title:"Name change",
